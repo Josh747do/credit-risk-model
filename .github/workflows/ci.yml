@@ -1,0 +1,12 @@
+name: CI Placeholder
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder step
+        run: echo "CI will be implemented in Task 6"
